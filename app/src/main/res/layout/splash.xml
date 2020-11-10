@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgruod"
+    android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/set1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/hs1">
+
+            </ImageView>
+            <ImageView
+                android:id="@+id/set2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/hinhset1">
+
+            </ImageView>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="650dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="78dp"
+                    android:fontFamily="monospace"
+                    android:text="T"
+                    android:textColor="@color/xanhduongnhat"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="78dp"
+                    android:fontFamily="monospace"
+                    android:text="O"
+                    android:textColor="@color/donhat"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="78dp"
+                    android:fontFamily="monospace"
+                    android:text="E"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="78dp"
+                    android:fontFamily="monospace"
+                    android:text="I"
+                    android:textColor="@color/timnhat"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="78dp"
+                    android:fontFamily="monospace"
+                    android:text="C"
+                    android:textColor="@color/camnhat"
+                    android:textSize="60dp" />
+            </TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:text="Design by NgocNT" />
+        </RelativeLayout>
+
+
+
+
+</LinearLayout>

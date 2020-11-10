@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B2C01F</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#DD5D88</color>
+    <color name="nhat">#C2BB7E</color>
+    <color name="xanhnhat">#DEE780</color>
+    <color name="camnhat">#FAAD3E</color>
+    <color name="donhat">#DD2114</color>
+    <color name="xanhduongnhat">#38B9F5</color>
+    <color name="timnhat">#9C27B0</color>
+    <color name="nen">#153047</color>
+    <color name="vang">#EBEB50</color>
+    <color name="trang">#ffffff</color>
+    <color name="xam">#EEEEEE</color>
+    <color name="black">#000000</color>
+</resources>

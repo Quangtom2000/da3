@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:text="Test Toeic"
+       android:textSize="25dp"
+       android:gravity="center"
+       android:textColor="#ffff"
+       android:background="@color/xanhduongnhat"
+       />
+
+   <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+       android:layout_marginTop="5dp"
+    android:orientation="horizontal">
+
+   <TextView
+       android:id="@+id/tv1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:fontFamily="monospace"
+       android:text="S"
+       android:textColor="@color/xanhduongnhat"
+       android:textSize="30dp" />
+
+   <TextView
+       android:id="@+id/tv2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:fontFamily="serif-monospace"
+       android:text="T"
+       android:textColor="@color/donhat"
+       android:textSize="30dp" />
+
+   <TextView
+       android:id="@+id/tv3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:fontFamily="monospace"
+       android:text="U"
+       android:textColor="@color/colorAccent"
+       android:textSize="30dp" />
+
+   <TextView
+       android:id="@+id/tv4"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:fontFamily="serif-monospace"
+       android:text="D"
+       android:textColor="@color/timnhat"
+       android:textSize="30dp" />
+
+   <TextView
+
+       android:id="@+id/tv5"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:fontFamily="monospace"
+       android:text="Y"
+       android:textColor="@color/camnhat"
+       android:textSize="30dp" />
+</LinearLayout>
+
+   <androidx.core.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#44C9CFCD"
+       >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+         <androidx.cardview.widget.CardView
+             android:id="@+id/tb1"
+             android:background="#A3FFFFFF"
+             android:layout_marginTop="20dp"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+               <ImageView
+                   android:layout_marginTop="5dp"
+                   android:background="@drawable/botron"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   />
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerInParent="true"
+                   android:src="@drawable/openbook2" />
+            </RelativeLayout>
+            <TextView
+                android:textSize="20dp"
+                android:textColor="@color/xanhduongnhat"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Từ Vựng Toeic"/>
+         </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:id="@+id/tb2"
+             android:background="#A3FFFFFF"
+             android:layout_marginTop="20dp"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+               <ImageView
+                   android:layout_marginTop="5dp"
+                   android:background="@drawable/one3"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   />
+             >
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Grammar"
+                android:textColor="@color/xanhduongnhat"
+                android:textSize="20dp" />
+         </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:id="@+id/tb3"
+             android:background="#A3FFFFFF"
+             android:layout_marginTop="20dp"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+               <ImageView
+                   android:layout_marginTop="5dp"
+                   android:background="@drawable/two3"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   />
+
+               >
+            </RelativeLayout>
+            <TextView
+                android:textSize="20dp"
+                android:textColor="@color/xanhduongnhat"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text Completion"/>
+         </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:id="@+id/tb4"
+             android:background="#A3FFFFFF"
+             android:layout_marginTop="20dp"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+               <ImageView
+                   android:layout_marginTop="5dp"
+                   android:background="@drawable/three3"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   />
+
+               >
+            </RelativeLayout>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Incomplete Sentences"
+                android:textColor="@color/xanhduongnhat"
+                android:textSize="20dp" />
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:id="@+id/tb6"
+             android:background="#A3FFFFFF"
+             android:layout_marginTop="20dp"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+               <ImageView
+                   android:layout_marginTop="5dp"
+                   android:background="@drawable/botron"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   />
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerInParent="true"
+                   android:src="@drawable/ic_settings_black" />
+            </RelativeLayout>
+            <TextView
+                android:textSize="20dp"
+                android:textColor="@color/xanhduongnhat"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setting"/>
+         </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:id="@+id/tb7"
+             android:background="#A3FFFFFF"
+             android:layout_marginTop="20dp"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+               <ImageView
+                   android:layout_marginTop="5dp"
+                   android:background="@drawable/botron"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   />
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerInParent="true"
+                   android:src="@drawable/openbook2" />
+            </RelativeLayout>
+            <TextView
+                android:textSize="20dp"
+                android:textColor="@color/xanhduongnhat"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Help"/>
+         </androidx.cardview.widget.CardView>
+      </LinearLayout>
+   </androidx.core.widget.NestedScrollView>
+
+
+
+
+</LinearLayout>
